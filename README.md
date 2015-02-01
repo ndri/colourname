@@ -2,9 +2,11 @@
 Gives you the closest Wikipedia colour of a colour hex. 
 
 Colours taken from these Wikipedia articles:
-https://en.wikipedia.org/wiki/List_of_colors:_A%E2%80%93F
-https://en.wikipedia.org/wiki/List_of_colors:_G%E2%80%93M
-https://en.wikipedia.org/wiki/List_of_colors:_N%E2%80%93Z
+* https://en.wikipedia.org/wiki/List_of_colors:_A%E2%80%93F
+
+* https://en.wikipedia.org/wiki/List_of_colors:_G%E2%80%93M
+
+* https://en.wikipedia.org/wiki/List_of_colors:_N%E2%80%93Z
 
 # Example
 Input:
@@ -17,6 +19,5 @@ Output:
     Difference: 5
 
 # TODO
-
 * Make a little web app with Flask for this. 
 * Maybe documentation.
