@@ -10,9 +10,11 @@ Colours taken from these Wikipedia articles:
 
 # Example
 Input:
+
     Colour: #BADA55
 
 Output:
+
     Colour: #BDDA57
     Colour name: June bud
     URL: https://en.wikipedia.org/wiki/Spring_bud#June_bud
