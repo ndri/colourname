@@ -28,7 +28,6 @@ for colour in colours.keys():
     if diff < best[0]:
         best = (diff, colour)
 
-print best[1]
 print "Colour:", best[1]
 print "Colour name:", colours[best[1]][0]
 print "URL: https://en.wikipedia.org" + colours[best[1]][1]
