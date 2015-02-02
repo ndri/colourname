@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% with messages = get_flashed_messages()[0] %}<html>
+    <head>
+        <title>colourname</title>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+        <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    </head>
+    <body style="background-color: {{messages[1]}}">
+        <div id="container">
+            <form action="." method="post">
+                <input id="colourbox" type="text" name="colour" placeholder="Enter a colour hex" maxlength=7 />
+                {% if messages and messages|length == 1 %}<div id="error">Invalid input</div>{% elif messages %}<div id="colours">
+                    <p><b>Input:</b> {{messages[0]}}</p>
+                    <p><b>Closest colour:</b> {{messages[1]}}</p>
+                    <p><b>Difference:</b> {{messages[2]}}</p>
+                    <p><b>Name:</b> <a href="https://en.wikipedia.org{{messages[4]}}">{{messages[3]}}</a></p>
+                </div>{% endif %}
+            </form>
+        </div>
+    </body>
+</html>{% endwith %}
