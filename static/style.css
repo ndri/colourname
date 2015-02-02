@@ -1,0 +1,54 @@
+body, html {
+    font-family: Lato, sans-serif;
+    margin: 0;
+    color: #ECF0F1;
+    text-align: center;
+    background-color: #1ABC9C;
+    height: 100%;
+}
+
+#container {
+    width: 320px;
+    margin: auto;
+    padding: 32px;
+    border-radius: 16px;
+	position: relative;
+	top: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: translateY(-50%);
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+#colourbox {
+    font-family: Lato, sans-serif;
+    background-color: #ECF0F1;
+    color: #2C3E50;
+    padding: 8px;
+    font-size: 24px;
+    border-radius: 8px;
+    border: none;
+    width: 304px;
+    text-align: center;
+}
+
+#error {
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+#colours {
+    margin-top: 32px;
+}
+
+#colours p {
+    text-align: left;
+    margin: 8px;
+}
+
+a, a:visited {
+    color: #ECF0F1;
+}
+
+a:hover {
+    opacity: 0.6;
+}
