@@ -21,5 +21,4 @@ Output:
     Difference: 5
 
 # TODO
-* Make a little web app with Flask for this. 
-* Maybe documentation.
+* Clean up and documentate.
