@@ -9,6 +9,9 @@ Colours taken from these Wikipedia articles:
 * https://en.wikipedia.org/wiki/List_of_colors:_N%E2%80%93Z
 
 # Example
+
+Flask example at http://ndri.me/colourname.
+
 Input:
 
     Colour: #BADA55
