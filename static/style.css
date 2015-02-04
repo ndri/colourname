@@ -10,7 +10,7 @@ body, html {
 #container {
     width: 320px;
     margin: auto;
-    padding: 32px;
+    padding: 32px 32px 16px 32px;
     border-radius: 16px;
 	position: relative;
 	top: 50%;
@@ -43,6 +43,12 @@ body, html {
 #colours p {
     text-align: left;
     margin: 8px;
+}
+
+#footer {
+    margin-top: 16px;
+    font-size: 12px;
+    text-align: right;
 }
 
 a, a:visited {
