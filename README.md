@@ -10,7 +10,7 @@ Colours taken from these Wikipedia articles:
 
 # Example
 
-Flask example at http://ndri.me/colourname.
+Flask example at http://andri.link/colourname.
 
 Input:
 
