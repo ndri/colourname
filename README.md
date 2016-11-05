@@ -1,5 +1,5 @@
 # colourname
-Gives you the closest Wikipedia colour of a colour hex. 
+Gives you the closest Wikipedia colour of a colour hex.
 
 Colours taken from these Wikipedia articles:
 * https://en.wikipedia.org/wiki/List_of_colors:_A%E2%80%93F
@@ -10,7 +10,7 @@ Colours taken from these Wikipedia articles:
 
 # Example
 
-Flask example at http://andri.link/colourname.
+Flask example at http://andri.io/colourname
 
 Input:
 
